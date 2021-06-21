@@ -1,1 +1,9 @@
-// TODO
+.header, .headerWhenPost{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    img{
+        cursor: pointer;
+    }
+}

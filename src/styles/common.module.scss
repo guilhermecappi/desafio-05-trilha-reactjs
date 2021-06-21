@@ -1,1 +1,17 @@
-// TODO
+.container{
+    max-width: 900px;
+    margin: 0 auto 4rem;
+    padding: 0 2rem;
+}
+
+.info{
+    color: var(--gray-400);
+
+    svg{
+        margin-right: .25rem;
+    }
+
+    span{
+        margin-right: 2rem;
+    }
+}

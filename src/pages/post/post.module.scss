@@ -1,1 +1,28 @@
-// TODO
+.imageContainer{
+    max-height: 400px;
+    overflow: hidden;
+
+    img{
+        width: 100vw;
+    }
+}
+
+.post{
+    h1{
+        margin: 4rem 0 1rem;
+        color: var(--white);
+        font-size: 3rem;
+    }
+
+    .postContent{
+        h2{
+            font-size: 2.25rem;
+            color: var(--white);
+            margin: 4rem 0;
+        }
+        div{
+            font-size: 1.125rem;
+            color: var(--gray-300);
+        }
+    }
+}

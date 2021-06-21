@@ -1,1 +1,35 @@
-// TODO
+.post{
+    margin-bottom: 3rem;
+    cursor: pointer;
+
+    h1{
+        color: var(--white);
+        font-weight: bold;
+        font-size: 1.75rem;
+        transition: color .15s;
+    }
+
+    p{
+        margin: 1rem 0;
+        color: var(--gray-300);
+        font-size: 1.125rem;
+    }
+
+    &:hover h1{
+        color: var(--pink-500);
+    }
+}
+
+.loadMore{
+    color: var(--pink-500);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    
+    transition: filter .15s;
+
+    &:hover{
+        cursor: pointer;
+        filter: brightness(0.75);
+    }
+}
