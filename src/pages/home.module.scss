@@ -33,3 +33,31 @@
         filter: brightness(0.75);
     }
 }
+
+.previewModeButton{
+    margin-top: 2rem;
+    background: var(--white);
+
+    width: 100%;
+    height: 3.625rem;
+    border-radius: .25rem;
+
+    color: var(--gray-900);
+    font-size: 1.125;
+    font-weight: bold;
+
+    transition: filter .15s;
+
+    a{
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &:hover{
+        filter: brightness(.75);
+    }
+}

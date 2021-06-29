@@ -1,6 +1,6 @@
 .container{
     max-width: 900px;
-    margin: 0 auto 4rem;
+    margin: 0 auto;
     padding: 0 2rem;
 }
 
@@ -13,5 +13,10 @@
 
     span{
         margin-right: 2rem;
+    }
+
+    p{
+        margin-left: .5rem;
+        line-height: 3rem;
     }
 }
